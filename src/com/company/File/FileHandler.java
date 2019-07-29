@@ -12,7 +12,7 @@ public class FileHandler {
 
     public static void writeFileContent() {
         FileWriter myfileWriter = new FileWriter();
-        String data = "Hello! How are you?";
+        String data = "\nBye";
         try {
             myfileWriter.writeFile("DataFile.txt", data);
         } catch (FileNotFoundException e) {
