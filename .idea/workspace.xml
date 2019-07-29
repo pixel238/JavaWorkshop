@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bc435a3-ff6e-491e-80c5-c263bc5e18c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/File/dataStreams/primitiveDataHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWorkshop/com/company/File/FileWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/File/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/File/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/File/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/File/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/File/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/File/FileWriter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,43 +19,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/File/FileWriter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/File/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/File/FileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataFile.txt">
+        <entry file="file://$PROJECT_DIR$/src/com/company/File/dataStreams/primitiveDataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="158">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,10 +72,15 @@
         <option value="$PROJECT_DIR$/src/com/company/FileReader.java" />
         <option value="$PROJECT_DIR$/src/com/company/File/Thread/RunnableExample.java" />
         <option value="$PROJECT_DIR$/src/com/company/socket/FileReader.java" />
-        <option value="$PROJECT_DIR$/src/com/company/File/FileReader.java" />
-        <option value="$PROJECT_DIR$/src/com/company/File/FileWriter.java" />
         <option value="$PROJECT_DIR$/src/com/company/File/FileHandler.java" />
         <option value="$PROJECT_DIR$/DataFile.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/File/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/File/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/socket/ConsoleReader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/dataStreams/ConsoleReader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleReader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/File/dataStreams/primitiveDataHandler.java" />
       </list>
     </option>
   </component>
@@ -141,6 +121,14 @@
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="File" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaWorkshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStreams" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,13 +153,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileHandler">
+  <component name="RunManager" selected="Application.primitiveDataHandler">
     <configuration name="CallableExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Thread.CallableExample2" />
       <module name="JavaWorkshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsoleWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.File.dataStreams.ConsoleWriter" />
+      <module name="JavaWorkshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.File.dataStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.File.Thread.RunnableExample" />
+    <configuration name="primitiveDataHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.File.dataStreams.primitiveDataHandler" />
       <module name="JavaWorkshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.File.*" />
+          <option name="PATTERN" value="com.company.File.dataStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,16 +218,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.RunnableExample" />
       <item itemvalue="Application.CallableExample2" />
       <item itemvalue="Application.FileHandler" />
+      <item itemvalue="Application.ConsoleWriter" />
+      <item itemvalue="Application.primitiveDataHandler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.primitiveDataHandler" />
+        <item itemvalue="Application.ConsoleWriter" />
         <item itemvalue="Application.FileHandler" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CallableExample2" />
-        <item itemvalue="Application.RunnableExample" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +250,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31013617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31013617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +259,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,23 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/File/FileReader.java">
+    <entry file="file://$PROJECT_DIR$/DataFile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/File/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -331,10 +321,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataFile.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/File/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File/dataStreams/ConsoleWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File/dataStreams/primitiveDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
