@@ -1,8 +1,9 @@
-package com.company;
+package com.company.Thread;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.function.Function;
 
 public class CallableExample2 {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
@@ -15,9 +16,18 @@ public class CallableExample2 {
             list.add(future);
         }
 
-        for(Future<String > f:list){
-            System.out.println(System.currentTimeMillis()+" :::: "+f.get());
-        }
+        Function<Future<String>,String> function=(f)->{
+            String name="";
+            try{
+                name = f.get();
+            }catch (InterruptedException e){
+                e.printStackTrace();
+            }catch (ExecutionException e){
+                e.printStackTrace();
+            }
+            return name;
+        };
+        list.stream().map(function).forEach(System.out::println);
         service.shutdown();
     }
 }
